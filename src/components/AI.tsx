@@ -9,7 +9,7 @@ const AI: React.FC = () => {
             Chat with My AI Assistant
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Experience my personalized AI assistant powered by <strong>Mimikree</strong>. 
+            Experience my personalized AI assistant powered by <strong>Mimikree</strong>  — a platform I developed. 
             Ask questions about my work, skills, or anything else you'd like to know!
           </p>
         </div>

@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
       },
       githubUrl: 'https://github.com/protocorn/automatic-infographics-system-for-medical-paper',
       icon: Code,
-      category: 'Full-Stack'
+      category: 'AI/ML'
     },
     {
       title: 'Smart Gmail Assistant',

@@ -61,7 +61,7 @@ const Projects: React.FC = () => {
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: index * 0.1 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, margin: "-100px 0px 0px 0px" }}
         className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 card-hover"
       >
         {/* Project Image/Placeholder */}

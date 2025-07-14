@@ -2,9 +2,9 @@ import React from 'react';
 
 const educationData = [
   {
-    year: '2018-2020',
-    institution: 'Pace Junior Science College',
-    degree: 'Science (PCM)',
+    year: '2024-2026',
+    institution: 'University of Maryland, College Park', 
+    degree: 'MS in Data Science',
   },
   {
     year: '2020-2024',
@@ -12,9 +12,9 @@ const educationData = [
     degree: 'B.E in Computer Engineering',
   },
   {
-    year: '2024-2026',
-    institution: 'University of Maryland, College Park', 
-    degree: 'MS in Data Science',
+    year: '2018-2020',
+    institution: 'Pace Junior Science College',
+    degree: 'Science (PCM)',
   },
 ];
 

@@ -75,7 +75,7 @@ const Skills: React.FC = () => {
             My <span className="gradient-text">Skills</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Tools and technologies I’ve mastered across machine learning, full-stack development, and production AI pipelines.
+            A snapshot of the technologies I use to build, test, and deploy intelligent applications.
           </p>
         </motion.div>
 
@@ -110,13 +110,12 @@ const Skills: React.FC = () => {
           className="mt-20 text-center"
         >
           <div className="bg-gradient-to-r from-primary-500 to-purple-600 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-4">Currently Learning</h3>
+            <h3 className="text-2xl font-bold mb-4">What's Next?</h3>
             <p className="text-lg opacity-90 max-w-3xl mx-auto">
-              Continuously expanding my skill set via real-world projects and deep dives into advanced AI workflows, 
-              system design, and cloud-native architectures.
+            I'm currently deepening my expertise in model optimization and exploring advanced topics in distributed systems to build even more powerful AI.
             </p>
             <div className="flex flex-wrap justify-center gap-4 mt-6">
-              {['Next.js', 'GraphQL', 'Kubernetes', 'DevOps', 'Model Optimization'].map((topic) => (
+              {['Model Quantization', 'Distributed Training', 'Advanced Kubernetes'].map((topic) => (
                 <span
                   key={topic}
                   className="px-4 py-2 bg-white/20 rounded-full text-sm font-medium backdrop-blur-sm"

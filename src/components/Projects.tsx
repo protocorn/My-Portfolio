@@ -5,8 +5,8 @@ import { ExternalLink, Github, Code, Smartphone, Globe } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: 'Mimikree (Personalized AI Assistant)',
-      description: 'Mimikree is an AI assistant platform that creates personalized AI models by understanding your unique needs, preferences, and goals through your data.',
+      title: 'Mimikree: Your Personalized AI Assistant',
+      description: 'An AI assistant that learns from your data to create a personalized, context-aware experience. I led the development of its hybrid RAG pipeline and secure, scalable backend architecture.',
       image: '/mimikree.png',
       technologies: {
         'Frontend': ['HTML5', 'CSS3', 'JavaScript'],
@@ -160,7 +160,7 @@ const Projects: React.FC = () => {
             My <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A collection of projects I've built to practice and showcase my development skills
+            Here are some of the projects where I've turned complex challenges into functional, intelligent software.
           </p>
         </motion.div>
 
@@ -194,7 +194,7 @@ const Projects: React.FC = () => {
               className="inline-flex items-center gap-2 btn-primary"
             >
               <Github className="w-5 h-5" />
-              View All Projects
+              Explore My GitHub
             </motion.a>
           </div>
         </motion.div>

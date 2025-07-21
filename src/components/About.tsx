@@ -1,28 +1,28 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Lightbulb, Target, Users } from 'lucide-react';
+import { BrainCircuit, Rocket, Scale, Milestone } from 'lucide-react';
 
 const About: React.FC = () => {
   const values = [
     {
-      icon: Code,
-      title: 'Clean Code',
-      description: 'I believe in writing clean, maintainable, and well-documented code that others can easily understand and build upon.'
+      icon: BrainCircuit,
+      title: 'Intellectual Curiosity',
+      description: 'I thrive on dissecting complex problems and exploring the "why" behind data-driven technologies.'
     },
     {
-      icon: Lightbulb,
-      title: 'Innovation',
-      description: 'Always eager to learn new technologies and find creative solutions to complex problems.'
+      icon: Rocket,
+      title: 'Pragmatic Execution',
+      description: 'I bridge the gap between bold ideas and functional, scalable systems that deliver real-world value.'
     },
     {
-      icon: Target,
-      title: 'Goal-Oriented',
-      description: 'Focused on delivering results and continuously improving my skills through hands-on projects and learning.'
+      icon: Scale,
+      title: 'Scalable Systems',
+      description: 'I build robust, efficient, and maintainable applications designed for long-term growth and impact.'
     },
     {
-      icon: Users,
-      title: 'Collaboration',
-      description: 'I enjoy working with others, sharing knowledge, and contributing to team success.'
+      icon: Milestone,
+      title: 'Purposeful Impact',
+      description: 'I am driven to create intelligent software that meaningfully enhances user interactions and outcomes.'
     }
   ];
 
@@ -52,17 +52,17 @@ const About: React.FC = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">My Journey</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">My Story</h3>
             <div className="space-y-4 text-gray-600">
             <p>
-  I’ve always been fascinated by autonomous systems — the idea that machines can learn, adapt, and make decisions independently sparked a deep curiosity in me. That spark led me into the world of data, algorithms, and intelligent system design.
-</p>
-<p>
-  Through my Data Science journey, I’ve explored and built a variety of AI-driven applications — from personalized LLM-based assistants to local, autonomous document search engines. Each project helped me better understand what it takes to engineer scalable, context-aware systems that truly assist users.
-</p>
-<p>
-  My journey isn’t just about coding. It’s about crafting systems that think, evolve, and deliver real value. I’m continuously pushing boundaries in AI, automation, and intelligent software design — and I’m just getting started.
-</p>
+            My fascination with AI began with a simple question: how can machines think? This curiosity led me down a rabbit hole of data, algorithms, and intelligent design. 
+            </p>
+            <p>
+            I've since translated that curiosity into tangible results, building everything from personalized LLM assistants to autonomous document search engines. Each project has been a step toward mastering the art of creating context-aware systems that don't just function, but feel intuitive.
+            </p>
+            <p>
+            I'm not just a coder; I'm an architect of digital intelligence. My goal is to build systems that learn, adapt, and create real value. This is my journey, and I'm just getting started.
+            </p>
             </div>
           </motion.div>
 
@@ -91,7 +91,7 @@ const About: React.FC = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h3 className="text-2xl font-bold text-gray-900 text-center mb-12">What Drives Me</h3>
+          <h3 className="text-2xl font-bold text-gray-900 text-center mb-12">My Core Principles</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {values.map((value, index) => (
               <motion.div

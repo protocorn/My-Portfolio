@@ -45,8 +45,8 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto"
             >
-             Aspiring AI Engineer crafting smart applications with machine learning and LLMs.
-             Driven by curiosity, execution, and turning bold ideas into scalable systems.
+             I'm Sahil Chordia, an AI engineer who turns wild ideas into smart, scalable software.
+             I love building applications that are not just functional, but fascinating.
             </motion.p>
 
             <motion.div
@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
                 onClick={() => scrollToSection('#contact')}
                 className="btn-secondary"
               >
-                Get In Touch
+                Let's Chat
               </button>
             </motion.div>
 

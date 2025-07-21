@@ -46,18 +46,18 @@ const AI: React.FC = () => {
     <section id="ai" className="py-20 bg-gradient-to-br from-primary-50 to-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-16 text-center">
-            Chat with My <span className="gradient-text">AI Assistant</span>
+          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 text-center">
+            Talk to My <span className="gradient-text">Digital Twin</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Experience my personalized AI assistant powered by <strong>Mimikree</strong>  — a platform I developed. 
-            Ask questions about my work, skills, or anything else you'd like to know!
+            I built this AI assistant using my own platform, <strong>Mimikree</strong>. It's trained on my projects, skills, and experience. 
+            Go ahead, ask it anything about me!
           </p>
         </div>
         
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-100">
-            <div className="p-6">
+            <div className="p-4 sm:p-6">
               <div ref={iframeContainerRef} className="relative" style={{ minHeight: '600px' }}>
                 {loadIframe ? (
                   <iframe 
@@ -75,17 +75,16 @@ const AI: React.FC = () => {
                   />
                 ) : (
                   <div style={{ height: '600px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#f9fafb', borderRadius: '8px' }}>
-                    <p className="text-gray-500">Loading AI Assistant...</p>
+                    <p className="text-gray-500">Loading Digital Twin...</p>
                   </div>
                 )}
               </div>
             </div>
           </div>
           
-          <div className="mt-8 text-center">
-            <p className="text-gray-500 text-sm">
-              This AI assistant is trained on my portfolio and experience. 
-              Feel free to ask about my projects, skills, or career journey!
+          <div className="mt-8 text-center px-4">
+            <p className="text-gray-600 text-sm max-w-2xl mx-auto">
+              For the best experience, try asking specific questions like "What was your role in the Mimikree project?" or "Which machine learning models have you worked with?".
             </p>
           </div>
         </div>

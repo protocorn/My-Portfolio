@@ -130,10 +130,10 @@ const Contact: React.FC = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Get In <span className="gradient-text">Touch</span>
+            Let's <span className="gradient-text">Collaborate</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology
+            Have a project in mind, a question about my work, or just want to connect? I'd love to hear from you.
           </p>
         </motion.div>
 
@@ -145,7 +145,7 @@ const Contact: React.FC = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Let's Connect</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">Contact Details</h3>
             
             {/* Contact Info */}
             <div className="space-y-6 mb-8">
@@ -204,7 +204,7 @@ const Contact: React.FC = () => {
             viewport={{ once: true }}
             className="bg-white rounded-2xl shadow-lg p-8"
           >
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Send a Message</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Drop Me a Line</h3>
             
             {/* Status Messages */}
             {submitStatus === 'success' && (
@@ -321,32 +321,6 @@ const Contact: React.FC = () => {
             </form>
           </motion.div>
         </div>
-
-        {/* Call to Action */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="mt-20 text-center"
-        >
-          <div className="bg-gradient-to-r from-primary-500 to-purple-600 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-4">Ready to work together?</h3>
-            <p className="text-lg opacity-90 mb-6 max-w-2xl mx-auto">
-              I'm currently looking for new opportunities and would love to hear about your project. 
-              Let's create something amazing together!
-            </p>
-            <motion.a
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              href="mailto:chordiasahil@gmail.com"
-              className="inline-flex items-center gap-2 bg-white text-primary-600 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-all duration-300"
-            >
-              <Mail className="w-5 h-5" />
-              Start a Conversation
-            </motion.a>
-          </div>
-        </motion.div>
       </div>
     </section>
   );
